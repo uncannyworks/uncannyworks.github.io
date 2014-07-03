@@ -11,6 +11,10 @@ body {
 	padding: 3em;
 }
 
+.half-content {
+	width: 60%;
+}
+
 .footer {
 	padding: 2em;
 }
