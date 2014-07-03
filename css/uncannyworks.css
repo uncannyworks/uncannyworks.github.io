@@ -1,4 +1,6 @@
-body {
+html, body {
+	color: white;
+	font-size: 13pt;
 	background: -webkit-linear-gradient(rgb(47, 0, 116), black); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(rgb(47, 0, 116), black); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(rgb(47, 0, 116), black); /* For Firefox 3.6 to 15 */
@@ -6,16 +8,16 @@ body {
 }
 
 .content {
-	color: white;
 	background: #111;
 	padding: 3em;
 }
 
-.half-content {
-	width: 60%;
+.indent {
+	padding: 2em;
 }
 
 .footer {
+	margin-top: 2em;
 	padding: 2em;
 }
 
@@ -29,6 +31,18 @@ body {
 
 .text-center {
 	text-align: center;
+}
+
+.portrait {
+	display: block;
+	width: 256px;
+	height: 256px;
+	min-width: 128px;
+}
+
+.portrait img {
+	width: 100%;
+	height: auto;
 }
 
 .logo-small {
