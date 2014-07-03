@@ -11,6 +11,10 @@ body {
 	padding: 3em;
 }
 
+.footer {
+	padding: 2em;
+}
+
 .text-shadow {
 	text-shadow: 0 0 0.5em red;
 }
@@ -44,3 +48,28 @@ body {
 	width: 100%;
 	height: auto;
 }
+
+.icon-github {
+	width: 64px;
+	height: 64px;
+	background-image: url('../images/icons/github.png');
+}
+
+.icon-github:hover {
+	width: 64px;
+	height: 64px;
+	background-image: url('../images/icons/github-white.png');
+}
+
+.icon-twitter {
+	width: 64px;
+	height: 64px;
+	background-image: url('../images/icons/twitter.png');
+}
+
+.icon-twitter:hover {
+	width: 64px;
+	height: 64px;
+	background-image: url('../images/icons/twitter-white.png');
+}
+
