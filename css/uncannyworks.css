@@ -85,3 +85,15 @@ body{
 hr {
 	border-top: 1px solid #9B9B9B
 }
+
+.focus-popup {
+  background-color: black;
+  z-index: 3000;
+  position: absolute; 
+  right: 0px; 
+  top: 70px; 
+  background-color: black; 
+  width: 200px; 
+  border: 1px solid #4e5d6c; 
+  padding: 3px;
+}
